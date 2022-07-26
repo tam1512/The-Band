@@ -1,0 +1,35 @@
+1. Những thành phần thường gặp trên giao diện website
+- Header (Đầu trang)
+- Navigation (Điều hướng)
+- Breadcrumb (Exp: Trang chủ -> Khóa học -> HTML,CSS)
+- Sidebar (Thanh một bên màn hình, có thể là menu)
+- Slider (Trược, thay đổi hình ảnh)
+- Banner
+- Content (Phần chứa nội dung chính)
+- Footer (Chân trang)
+
+2. Phân tích dự án
+- Header
+   - Navigation
+   - Search
+- Slider 
+   - 3 image 
+   - 3 content
+- Content
+   - The Band section 
+   - Tour section
+   - Contact section
+- Footer
+   - Social media
+
+
+   -----------------------------------------------
+   Slider:
+   HTML: 
+   - Vùng chứa Slider
+      - Tạo số phần tử div tương ứng với số hình trên Slider (hinh anh, noi dung)
+      - Tạo 2 nút tiến và lùi bằng thẻ a
+   - Tạo div chứa các nút 
+      - Tạo các nút sl tương ứng các ảnh
+      
+   

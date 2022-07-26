@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>The Band</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header" id="home">
+        <ul class="header_nav">
+          <li><a href="#home">HOME</a></li>
+          <li><a href="#band">BAND</a></li>
+          <li><a href="#tour">TOUR</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+          <li class="header_nav_dropdown">
+            <a href="javascript:void(0)" class="dropbtn">
+              MORE
+              <i class="fa-solid fa-caret-down"></i>
+            </a>
+            <div class="dropdown-content">
+              <a href="#">Merchandise</a>
+              <a href="#">Extras</a>
+              <a href="#">Media</a>
+            </div>
+          </li>
+        </ul>
+        <div id="header_search">
+          <i class="fa-solid fa-magnifying-glass color-white"></i>
+        </div>
+      </div>
+      <!-- Slideshow container -->
+      <div class="slider">
+        <!-- Full-width image with caption text -->
+        <div class="slider_slides-cont">
+          <div class="slider_slide">
+            <img src="assets/img/la.jpg" alt="Los Angeles" />
+            <div class="text padding-32-16 color-white">
+              <h3 class="fz-24 margin-10-0">Los Angeles</h3>
+              <p class="margin-15-0">
+                <b class="text-shadow">We had the bes time playing at Venice Beach!</b>
+              </p>
+            </div>
+          </div>
+  
+          <div class="slider_slide">
+            <img src="assets/img/ny.jpg" alt="New York" />
+            <div class="text padding-32-16 color-white">
+              <h3 class="fz-24 margin-10-0">New York</h3>
+              <p class="margin-15-0">
+                <b class="text-shadow">The atmosphere in New York is lorem ipsum.</b>
+              </p>
+            </div>
+          </div>
+  
+          <div class="slider_slide">
+            <img src="assets/img/chicago.jpg" alt="Chicago" />
+            <div class="text padding-32-16 color-white">
+              <h3 class="fz-24 margin-10-0">Chicago</h3>
+              <p class="margin-15-0">
+                <b class="text-shadow">Thank you, Chicago - A night we won't forget</b>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- The pagination/circles -->
+         <div class="slider_pagination"></div>
+
+        <!-- Next and previous buttons (navigatin slide)-->
+        <a class="prev">&#10094</a>
+        <a class="next">&#10095</a>
+        </div>  
+      </div>
+      <div class="content">
+        <div class="padding-64-16 text-center" id="band">
+          <h2 class="tilte fz-30 margin-10-0">THE BAND</h2>
+          <p><i class="sub-title">We love music</i></p>
+          <p class="band_content margin-15-0 text-justify">We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <div class="band_members padding-32-0">
+            <div class="band_member">
+              <p class="margin-15-0">Name</p>
+              <img src="assets/img/bandmember.jpg" alt="band member" class="band_member_img margin-bottom-16">
+            </div>
+            <div class="band_member">
+              <p class="margin-15-0">Name</p>
+              <img src="assets/img/bandmember.jpg" alt="band member" class="band_member_img margin-bottom-16">
+            </div>
+            <div class="band_member">
+              <p class="margin-15-0">Name</p>
+              <img src="assets/img/bandmember.jpg" alt="band member" class="band_member_img margin-bottom-16">
+            </div>
+          </div>
+        </div>
+        <div class="backgroud-black" id="tour">
+          <div class="padding-64-16 text-center">
+            <h2 class="tilte fz-30 margin-10-0">TOUR DATES</h2>
+            <p><i class="sub-title">We love music</i></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="assets/js/js.js"></script>
+  </body>
+</html>
