@@ -528,6 +528,5 @@ li.header_nav_dropdown {
 
 /* img location/map */
 .img-map {
-  max-width: 100%;
   filter: grayscale(50%);
 }
