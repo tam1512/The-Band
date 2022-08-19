@@ -34,21 +34,11 @@ let btnBuyTickets = document.getElementsByClassName("btn-buy-ticket");
 // Header
 let mainMenuElement = document.getElementsByClassName("main-menu")[0];
 let itemNavElements = document.querySelectorAll(".header_nav li");
-let firstItemNavElement = document.querySelector(".header_nav li:first-child ");
-// hien menu khi an vao nut main-menu
-mainMenuElement.addEventListener("click", (e) => {
-  if (mainMenuElement.dataset.choose == "false") {
-    for (let i = 0; i < itemNavElements.length; i++) {
-      itemNavElements[i].style.display = "block";
-    }
 
-    mainMenuElement.dataset.choose = "true";
-  } else {
-    for (let i = 0; i < itemNavElements.length; i++) {
-      itemNavElements[i].style.display = "none";
-      firstItemNavElement.style.display = "block";
-      mainMenuElement.dataset.choose = "false";
-    }
+// hien menu khi an vao nut main-menu
+mainMenuElement.addEventListener("click", () => {
+  for (let i = 0; i < itemNavElements.length; i++) {
+    itemNavElements[i].style.display = "block";
   }
 });
 

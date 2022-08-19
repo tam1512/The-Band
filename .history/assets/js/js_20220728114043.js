@@ -46,7 +46,6 @@ mainMenuElement.addEventListener("click", (e) => {
   } else {
     for (let i = 0; i < itemNavElements.length; i++) {
       itemNavElements[i].style.display = "none";
-      firstItemNavElement.style.display = "block";
       mainMenuElement.dataset.choose = "false";
     }
   }

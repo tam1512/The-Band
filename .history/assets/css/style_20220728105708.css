@@ -11,9 +11,6 @@ body {
   font-family: Verdana, sans-serif;
   font-size: 15px;
   line-height: 22.5px;
-}
-
-html {
   scroll-behavior: smooth;
 }
 
@@ -261,10 +258,6 @@ li.header_nav_dropdown {
 
 #header_search:hover {
   background-color: #f44336;
-}
-
-.main-menu {
-  display: none;
 }
 
 /* Slider */

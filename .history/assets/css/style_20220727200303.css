@@ -13,10 +13,6 @@ body {
   line-height: 22.5px;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
 h1,
 h2,
 h3,
@@ -163,7 +159,7 @@ h6 {
 }
 
 .boder-bottom {
-  border-bottom: 1px solid #ddd;
+  border: 1px solid #ddd;
 }
 
 .btn {
@@ -261,10 +257,6 @@ li.header_nav_dropdown {
 
 #header_search:hover {
   background-color: #f44336;
-}
-
-.main-menu {
-  display: none;
 }
 
 /* Slider */

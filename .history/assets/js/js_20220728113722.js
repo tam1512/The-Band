@@ -34,10 +34,11 @@ let btnBuyTickets = document.getElementsByClassName("btn-buy-ticket");
 // Header
 let mainMenuElement = document.getElementsByClassName("main-menu")[0];
 let itemNavElements = document.querySelectorAll(".header_nav li");
-let firstItemNavElement = document.querySelector(".header_nav li:first-child ");
+
 // hien menu khi an vao nut main-menu
 mainMenuElement.addEventListener("click", (e) => {
-  if (mainMenuElement.dataset.choose == "false") {
+  let target = e.target;
+  if (Boolean(target.getAttribute("data-chooes")) == false) {
     for (let i = 0; i < itemNavElements.length; i++) {
       itemNavElements[i].style.display = "block";
     }
@@ -46,8 +47,6 @@ mainMenuElement.addEventListener("click", (e) => {
   } else {
     for (let i = 0; i < itemNavElements.length; i++) {
       itemNavElements[i].style.display = "none";
-      firstItemNavElement.style.display = "block";
-      mainMenuElement.dataset.choose = "false";
     }
   }
 });
@@ -150,3 +149,5 @@ function openModal() {
 function outMoDal() {
   modal.style.display = "none";
 }
+
+console.log(mainMenuElement.dataset.choose);

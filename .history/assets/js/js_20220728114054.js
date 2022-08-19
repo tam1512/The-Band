@@ -35,6 +35,7 @@ let btnBuyTickets = document.getElementsByClassName("btn-buy-ticket");
 let mainMenuElement = document.getElementsByClassName("main-menu")[0];
 let itemNavElements = document.querySelectorAll(".header_nav li");
 let firstItemNavElement = document.querySelector(".header_nav li:first-child ");
+console.log(firstItemNavElement);
 // hien menu khi an vao nut main-menu
 mainMenuElement.addEventListener("click", (e) => {
   if (mainMenuElement.dataset.choose == "false") {
@@ -46,7 +47,6 @@ mainMenuElement.addEventListener("click", (e) => {
   } else {
     for (let i = 0; i < itemNavElements.length; i++) {
       itemNavElements[i].style.display = "none";
-      firstItemNavElement.style.display = "block";
       mainMenuElement.dataset.choose = "false";
     }
   }

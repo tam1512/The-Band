@@ -1,0 +1,31 @@
+/* PC */
+@media (min-width: 1024px) {
+}
+
+/* tablet and mobile */
+@media (max-width: 1023px) {
+  .t-m-full {
+    float: none;
+    width: 100% !important;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .t-m-mr-bottom-8 {
+    margin-bottom: 8px;
+  }
+
+  .contact_form {
+    width: calc(100% * 0.55);
+  }
+}
+
+/* tablet */
+@media (max-width: 1023px) and (min-width: 740px) {
+}
+
+/* mobile */
+@media (max-width: 739px) {
+}

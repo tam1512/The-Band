@@ -1,0 +1,31 @@
+/* PC */
+@media (min-width: 1024px) {
+}
+
+/* tablet and mobile */
+@media (max-width: 1023px) {
+  .html {
+    font-size: 17px;
+  }
+
+  .t-m-full {
+    float: none;
+    width: 100% !important;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .t-m-mr-bottom-8 {
+    margin-bottom: 8px;
+  }
+}
+
+/* tablet */
+@media (max-width: 1023px) and (min-width: 740px) {
+}
+
+/* mobile */
+@media (max-width: 739px) {
+}

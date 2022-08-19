@@ -13,10 +13,6 @@ body {
   line-height: 22.5px;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
 h1,
 h2,
 h3,
@@ -163,7 +159,7 @@ h6 {
 }
 
 .boder-bottom {
-  border-bottom: 1px solid #ddd;
+  border: 1px solid #ddd;
 }
 
 .btn {
@@ -263,21 +259,14 @@ li.header_nav_dropdown {
   background-color: #f44336;
 }
 
-.main-menu {
-  display: none;
-}
-
 /* Slider */
 /* Slideshow container */
-.slider {
-  top: 47px;
-}
-
 .slider,
 .slider_slides-cont {
   max-width: 100%;
   height: auto;
   position: relative;
+  /* top: 47px; */
   margin: auto;
 }
 
@@ -363,10 +352,6 @@ li.header_nav_dropdown {
 
 /* content */
 
-.content {
-  margin-top: 41px;
-}
-
 #band,
 .tour-container,
 #contact {
@@ -423,10 +408,6 @@ li.header_nav_dropdown {
 /* ticket list */
 .ticket-list {
   margin: 0 -16px;
-}
-
-.ticket-img:hover {
-  opacity: 0.6;
 }
 
 /* ticket modal */
@@ -549,10 +530,4 @@ li.header_nav_dropdown {
 .img-map {
   max-width: 100%;
   filter: grayscale(50%);
-}
-
-/* footer */
-.social-media > i:hover {
-  opacity: 0.6;
-  cursor: pointer;
 }
